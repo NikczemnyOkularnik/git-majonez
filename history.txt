@@ -12,7 +12,7 @@
    12  git add main.cpp 
    13  git commit -m"Farewell changed"
    14  git remote add origin https://github.com/NikczemnyOkularnik/git-majonez.git
-   15  git push -f -u origin master
+   15  git push -u origin master
    16  git branch cs
    17  git checkout cs
    18  git log
@@ -20,7 +20,7 @@
    20  git status
    21  git add main.cpp 
    22  git commit -m"Greetings"
-   23  git push -f origin cs
+   23  git push origin cs
    24  git checkout master
    25  git merge cs
    26  git status
