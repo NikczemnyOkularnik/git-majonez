@@ -1,0 +1,30 @@
+    1  ls
+    2  mkdir git-majonez
+    3  cd git-majonez/
+    4  git init majonez
+    5  cd majonez
+    6  touch main.cpp
+    7  code main.cpp 
+    8  git status
+    9  git add main.cpp 
+   10  git commit -m"Initial commit"
+   11  git status
+   12  git add main.cpp 
+   13  git commit -m"Farewell changed"
+   14  git remote add origin https://github.com/NikczemnyOkularnik/git-majonez.git
+   15  git push -f -u origin master
+   16  git branch cs
+   17  git checkout cs
+   18  git log
+   19  git reset 5f8a8d0cf144d27b934145228a3444cc2ad9476d
+   20  git status
+   21  git add main.cpp 
+   22  git commit -m"Greetings"
+   23  git push -f origin cs
+   24  git checkout master
+   25  git merge cs
+   26  git status
+   27  git add main.cpp 
+   28  git commit -m"Merge branch 'cs'"
+   29  history
+   30  history | tail +1 > history.txt
